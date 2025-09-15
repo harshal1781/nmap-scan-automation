@@ -27,17 +27,17 @@ A simple Python wrapper for **Nmap** that automates basic SYN scans and optional
 
 ## Usage
 Basic SYN scan with version detection (recommended if you have privileges):
-sudo python3 nmap_automation.py <target> --out scan_report.txt ▶️
+- sudo python3 nmap_automation.py  ` <target> ` --out scan_report.txt ▶️
 
 ## Include UDP scan (slower; may require sudo):
-sudo python3 nmap_automation.py <target> --udp --out scan_report_udp.txt 🐢
+- sudo python3 nmap_automation.py  ` <target> ` --udp --out scan_report_udp.txt 🐢
 
 ---
 
 ## Notes on arguments
-<target>: target IP or hostname (use only on systems you are authorized to test) ✅🔒
---udp: include UDP scanning (-sU) ⚠️ (slower)
---out: output filename (defaults to scan_report.txt) 💾
+##  ` <target> `: target IP or hostname (use only on systems you are authorized to test) ✅🔒
+- --udp: include UDP scanning (-sU) ⚠️ (slower)
+- --out: output filename (defaults to scan_report.txt) 💾
 
 ---
 
