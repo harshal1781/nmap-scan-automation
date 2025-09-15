@@ -14,14 +14,14 @@ A simple Python wrapper for **Nmap** that automates basic SYN scans and optional
 ---
 
 ## Installation (Debian / Ubuntu / Kali)
-sudo apt update
-sudo apt install -y nmap python3-nmap
+- sudo apt update
+- sudo apt install -y nmap python3-nmap
 
 ## If you prefer an isolated environment (virtualenv)
-sudo apt install -y python3-venv python3-pip
-python3 -m venv ~/venv_nmap
-source ~/venv_nmap/bin/activate
-pip install python-nmap 🛡️
+- sudo apt install -y python3-venv python3-pip
+- python3 -m venv ~/venv_nmap
+- source ~/venv_nmap/bin/activate
+- pip install python-nmap 🛡️
 
 ---
 
